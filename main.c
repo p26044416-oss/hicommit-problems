@@ -10,6 +10,6 @@ int main() {
    if(c>max){ 
       max = c;
    }
-   printf("So lon nhat la: %d", max);
+   printf("So lon nhat la %d", max);
   return 0;
 }
