@@ -6,14 +6,13 @@ int main() {
 	if(t<15){
 		printf("LANH");
 	}
-	if(15<t && t<25){
+	else if(15<t && t<25){
 		printf("MAT");
 	}
-	if(25<t && t<35){
+	else if(25<t && t<35){
 		printf("NONG");
 	}
-	if
-	(t>35){
+	else{
 		printf("RAT NONG");
 	}
   return 0;
